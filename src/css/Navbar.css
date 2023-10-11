@@ -1,0 +1,150 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3D6E8;
+    padding: 10px 5%;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.divNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link{
+    color: #4D4D4D;
+}
+
+.contactButton{
+    background-color: #1ABCE2;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
+.contactButton Link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: blue;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3D6E8;
+    padding: 10px 5%;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 11vh;
+}
+
+.nav_item{
+    color: #4D4D4D;
+}
+
+.nav_item:hover{
+    color: blue;
+}
+
+.contactButton{
+    background-color: #1ABCE2;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: black;
+    transition: 0.4s ease-in;
+}
+
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .nav_toggler{
+        display: block;
+    }
+
+    .nav_menu{
+        position: fixed;
+        top: 11vh;
+        right: 0;
+        width: 40%;
+        height: 93vh;
+        background-color: #D3D6E8;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
+
+    .contactButton{
+        position: fixed;
+        right: 75px;
+    }
+    
+    
+}
+
+/* nav Action class */
+
+.nav_active{
+    transform: translateX(0);
+}
+
+/* toggler icon animation */
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, -5px);
+}
