@@ -96,10 +96,17 @@ body{
     transition: 0.4s ease-in;
 }
 
+.hambouger{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .nav_toggler{
     cursor: pointer;
     display: none;
 }
+
 
 
 
@@ -112,22 +119,19 @@ body{
         position: fixed;
         top: 11vh;
         right: 0;
-        width: 40%;
+        width: 50%;
         height: 93vh;
-        background-color: #D3D6E8;
+        background-color: #cbcdd7;
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;
         justify-content: flex-start;
         padding-top: 50px;
     }
-
+     
     .contactButton{
-        position: fixed;
-        right: 75px;
+       display: none;
     }
-    
-    
 }
 
 /* nav Action class */

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+}
+.parent-container{
+   max-width: 70%;   
+}
+.custom-carousel{
+    width: 100%;       
+    object-fit: contain;
+}
+.color{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+@media screen and (max-width: 768px){
+    .section{
+        flex-direction: column;
+    }
+    .parent-container{
+        max-width: 100%;   
+     }
+    .custom-carousel{
+        width: 100vw !important;
+        object-fit: cover;
+    }
+    .color{
+        display: none;
+    }
+}

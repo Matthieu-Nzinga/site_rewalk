@@ -9,3 +9,12 @@ const cld = new Cloudinary({
 
 export const logo = cld.image("rewalk/logo");
 logo.resize(fill().width(60).height(60));
+
+export const one = cld.image("rewalk/apres/carrousel1");
+export const two = cld.image("rewalk/apres/carrousel2");
+export const theer = cld.image("rewalk/apres/carrousel3");
+export const slide3 = cld.image("rewalk/slide3");
+export const slider2 = cld.image("rewalk/slider2");
+export const slide4 = cld.image("rewalk/slide4");
+export const slide1 = cld.image("rewalk/slide1");
+
