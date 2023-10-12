@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import Carrousel from "../components/Carrousel";
 import { Link } from "react-router-dom";
+import Anous from "../components/Anous";
 
 function Accueil() {
   return (
@@ -38,6 +39,7 @@ function Accueil() {
         </div>
       </div>
       <Carrousel />
+      <Anous />
     </div>
   );
 }

@@ -37,7 +37,6 @@ button{
 }
 
 .towSection{
-    /* max-width: 40%; */
     display: flex;
     justify-content: center;
     align-items: center;

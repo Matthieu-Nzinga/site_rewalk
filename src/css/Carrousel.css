@@ -5,9 +5,10 @@
 }
 .section{
     display: flex;
+    margin-bottom: -40px;
 }
 .parent-container{
-   max-width: 70%;   
+   max-width: 70%; 
 }
 .custom-carousel{
     width: 100%;       
