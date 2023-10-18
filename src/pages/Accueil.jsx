@@ -6,6 +6,8 @@ import { BsTwitter } from "react-icons/bs";
 import Carrousel from "../components/Carrousel";
 import { Link } from "react-router-dom";
 import Anous from "../components/Anous";
+import CarrouselService from "../components/CarrouselService";
+import ProjetsRecens from "../components/ProjetsRecens";
 
 function Accueil() {
   return (
@@ -40,6 +42,8 @@ function Accueil() {
       </div>
       <Carrousel />
       <Anous />
+      {/* <CarrouselService/> */}
+      <ProjetsRecens/>
     </div>
   );
 }

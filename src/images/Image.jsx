@@ -21,4 +21,7 @@ export const slide1 = cld.image("rewalk/slide1");
 export const myImage = cld.image("rewalk/slider2");
 export const arrieurPlan = cld.image("rewalk/arrieurPlan-2");
 
+export const nonProjet = cld.image("rewalk/nonProjet");
+export const nonProjet1 = cld.image("rewalk/nonProjet1");
+
 

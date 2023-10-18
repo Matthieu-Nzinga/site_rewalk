@@ -1,0 +1,48 @@
+.recent-projects{
+    display: flex;
+    flex-direction: column;
+    background-color: #D3D6E8;
+    padding: 5%;
+}
+
+.oneDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toutVoir {
+    color: blue;
+}
+
+.div-recent-projects{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 1% 0;
+}
+
+.ims{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.divEcrit{
+    width: 600px;
+    overflow: hidden;
+}
+
+.ullllll{
+    display: flex;
+    gap: 70px;
+    margin: 20px 0;
+}
+
+ul p{
+    color: #404045;
+    font-size: 12px;
+}
+span{
+    color: blue;
+    font-size: 12px;
+}
