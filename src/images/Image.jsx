@@ -24,4 +24,6 @@ export const arrieurPlan = cld.image("rewalk/arrieurPlan-2");
 export const nonProjet = cld.image("rewalk/nonProjet");
 export const nonProjet1 = cld.image("rewalk/nonProjet1");
 
+export const nzingaImage = cld.image("rewalk/nzingaImage");
+
 

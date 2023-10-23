@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service_div_pricipal{
+    background-color: #D3D6E8;
+}
+
+.service_div_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11vh 5% 7vh 5%;
+}
+
+.service_div_one div{
+    width: 45%;
+}
+
+.h2_nos{
+    color: #0A2CAF;
+    font-size: 45px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.service_div_two{
+    background-color: #BCC0DD;
+    padding: 5%;
+
+}
+
+.service_div_one{
+    
+}
+
+@media screen and (max-width: 768px){
+    .service_div_one{
+        flex-direction: column;
+    }
+
+    .service_div_one div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Vous_etes_interesse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3D6E8;
+    padding: 5%;
+}
+
+.Vous_etes_interesse div{
+    width: 45%;
+}
+
+.Vous_etes_interesse img{
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .Vous_etes_interesse{
+        flex-direction: column;
+    }
+
+    .Vous_etes_interesse div{
+        width: 100%;
+    }
+}

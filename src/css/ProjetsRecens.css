@@ -22,13 +22,13 @@
 }
 
 .ims{
-    width: 700px;
+    width: 600px;
     height: 400px;
     border-radius: 10px;
 }
 
 .divEcrit{
-    width: 600px;
+    width: 650px;
     overflow: hidden;
 }
 
@@ -45,4 +45,28 @@ ul p{
 span{
     color: blue;
     font-size: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .div-recent-projects{
+        flex-direction: column;
+    }
+
+    .divEcrit{
+        width: auto;
+        height: auto;
+    }
+
+    .oneDiv{
+        flex-direction: column;
+    }
+
+    .enver{
+        flex-direction: column-reverse;
+    }
+
+    .ims{
+        width: 350px;
+        height: 200px;
+    }
 }

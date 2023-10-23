@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import Anous from "../components/Anous";
 import CarrouselService from "../components/CarrouselService";
 import ProjetsRecens from "../components/ProjetsRecens";
+import Temoignage from "../components/Temoignage";
+import Vous_etes_interesse from "../components/Vous_etes_interesse";
 
 function Accueil() {
   return (
@@ -44,6 +46,8 @@ function Accueil() {
       <Anous />
       {/* <CarrouselService/> */}
       <ProjetsRecens/>
+      <Temoignage/>
+      <Vous_etes_interesse/>
     </div>
   );
 }

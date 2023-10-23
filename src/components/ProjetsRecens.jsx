@@ -45,7 +45,7 @@ function ProjetsRecens() {
           </button>
         </div>
       </div>
-      <div className="div-recent-projects">
+      <div className="div-recent-projects enver">
         <div className="divEcrit">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
