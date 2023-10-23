@@ -63,3 +63,19 @@
     flex-direction: column;
     gap: 10px;
 }
+
+@media screen and (max-width: 768px){
+    .formulaire_contact{
+        flex-direction: column;
+    }
+
+    .formulaire{
+
+        width: 100%;
+    }
+
+    .contact_service{
+        width: 100%;
+        padding-top: 5%;
+    }
+}

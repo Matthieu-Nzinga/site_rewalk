@@ -44,7 +44,7 @@ function Accueil() {
       </div>
       <Carrousel />
       <Anous />
-      {/* <CarrouselService/> */}
+      <CarrouselService/>
       <ProjetsRecens/>
       <Temoignage/>
       <Vous_etes_interesse/>

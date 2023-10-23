@@ -27,3 +27,41 @@ export const nonProjet1 = cld.image("rewalk/nonProjet1");
 export const nzingaImage = cld.image("rewalk/nzingaImage");
 
 
+export const data = [
+  {
+    id: 1,
+    titre: "architecture",
+    photos: [
+      {
+        slide1,
+        slider2,
+        slide3,
+        slide4,
+      },
+    ],
+  },
+  {
+    id: 2,
+    titre: "batiment",
+    photos: [
+      {
+        slide1,
+        slider2,
+        slide3,
+        slide4,
+      },
+    ],
+  },
+  {
+    id: 3,
+    titre: "Informatique",
+    photos: [
+      {
+        slide1,
+        slider2,
+        slide3,
+        slide4,
+      },
+    ],
+  },
+];

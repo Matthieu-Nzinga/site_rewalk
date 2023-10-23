@@ -30,7 +30,7 @@ function Contact() {
             <input type="email" placeholder="Votre email" />
             <input type="number" placeholder="Votre téléphone" />
             <input type="text" placeholder="Votre message" />
-          
+
             <button>Envoyer</button>
           </div>
           <div className="contact_service">
@@ -40,12 +40,12 @@ function Contact() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis quos eum !
               </p>
-              <p>lorem@gmail.com</p>
+              <p>Email : lorem@gmail.com</p>
               <p>Téléphone : +243 81 29 00 285</p>
             </div>
             <div>
               <h3>Nos siéges</h3>
-              <p>Kinshasa</p>
+              <p>Kinshasa - Lubumbashi - Goma</p>
             </div>
             <div>
               <h3>Nos heures de travail</h3>
