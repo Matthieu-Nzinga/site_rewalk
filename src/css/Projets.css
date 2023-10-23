@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projet_div_principal{
+    background-color: #D3D6E8;
+}
+
+.div_button{
+    display: flex;
+    gap: 30px;
+}
+
+.div_button button{
+    padding: 20px 40px;
+    background-color: #D3D6E8; 
+}
+
+@media screen and (max-width: 768px){
+    .div_button{
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .div_button button{
+        padding: 10px 0;
+    }
+}
