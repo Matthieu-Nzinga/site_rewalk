@@ -33,4 +33,8 @@
     .color{
         display: none;
     }
+
+    .image_carrousel_media{
+        height: 10vh;
+    }
 }

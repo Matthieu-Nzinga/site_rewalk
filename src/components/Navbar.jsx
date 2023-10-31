@@ -43,7 +43,13 @@ function Navbar() {
         </div>
 
         <div className="hambouger">
-          <button className="contactButton">
+          <button
+            className={
+              toggleIcon === "nav_toggler toggle"
+                ? "contactButton alignContactButton"
+                : "contactButton"
+            }
+          >
             <Link to={"/contact"}>Contact</Link>
           </button>
 

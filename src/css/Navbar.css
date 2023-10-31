@@ -82,13 +82,21 @@ body{
         background-color: #cbcdd7;
         flex-direction: column;
         transform: translateX(100%);
-        transition: 0.5s ease-in;
+        /* transition: 0.5s ease-in; */
         justify-content: flex-start;
         padding-top: 50px;
     }
      
     .contactButton{
        display: none;
+    }
+
+    .alignContactButton{
+        display: block;
+        position: absolute;
+        top: 330px;
+        transition: 0.5s ease-in;
+        right: 50px;
     }
 }
 
