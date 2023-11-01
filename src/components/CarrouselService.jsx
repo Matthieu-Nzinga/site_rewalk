@@ -12,6 +12,10 @@ import {
   architecture2,
   architecture3,
   architecture4,
+  pont1,
+  pont2,
+  pont3,
+  pont4
 } from "../images/Image";
 
 function CarrouselService() {
@@ -33,16 +37,16 @@ function CarrouselService() {
       titre: "Design",
       photos: [
         {
-          element1: slide1,
-          element2: slider2,
-          element3: slide3,
-          element4: slide4,
+          element1: architecture2,
+          element2: slide1,
+          element3: architecture4,
+          element4: slide3,
         },
       ],
     },
     {
       id: 3,
-      titre: "Batiment de bureau",
+      titre: "Bâtiments intelligents",
       photos: [
         {
           element1: slide1,
@@ -52,6 +56,30 @@ function CarrouselService() {
         },
       ],
     },
+    {
+      id: 4,
+      titre: "Bâtiments de bureau",
+      photos: [
+        {
+          element1: slide1,
+          element2: slide3,
+          element3: slider2,
+          element4: slide4
+        },
+      ],
+    },
+    {
+      id: 5,
+      titre: "Ponts",
+      photos: [
+        {
+          element1: pont1,
+          element2: pont2,
+          element3: pont3,
+          element4: pont4
+        },
+      ],
+    }
   ];
   return (
     <div className="div-service">

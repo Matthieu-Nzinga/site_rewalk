@@ -29,3 +29,7 @@ export const architecture1 = cld.image("image_6_dyq2ov");
 export const architecture2 = cld.image("rewalk/image_7_hpxsj5");
 export const architecture3 = cld.image("image_8_jpkqgy");
 export const architecture4 = cld.image("rewalk/image_9_uqye2j");
+export const pont1 = cld.image("istockphoto-497150652-2048x2048_cmxxg2");
+export const pont2 = cld.image("construction");
+export const pont3 = cld.image("230612_01_ph03_2_sprpyd ");
+export const pont4 = cld.image("istockphoto-532021273-612x612_c0su1a");
