@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Anous.css";
 import { AdvancedImage } from "@cloudinary/react";
 import { arrieurPlan, myImage } from "../images/Image";
-
+import { Link } from "react-router-dom";
 
 function Anous() {
   return (
@@ -15,13 +15,17 @@ function Anous() {
           quisquam minus aliquam consequuntur rerum, blanditiis architecto
           facere rem! Non, qui!
         </p>
-        <button>En savoir plus</button>
+        <div>
+          <Link to={"/apropos"}>
+            <button>En savoir plus</button>
+          </Link>
+        </div>
       </div>
       <div>
-          <AdvancedImage className="imgs" cldImg={myImage} />
-          <div>
-            <AdvancedImage className="ar_plan" cldImg={arrieurPlan} />
-          </div>
+        <AdvancedImage className="imgs" cldImg={myImage} />
+        <div>
+          <AdvancedImage className="ar_plan" cldImg={arrieurPlan} />
+        </div>
       </div>
     </div>
   );

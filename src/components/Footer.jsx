@@ -19,7 +19,7 @@ function Footer() {
           composition électronique, restant essentiellement inchangé.
         </p>
         <div className="footer_icons">
-          <Link>{<GrFacebookOption />}</Link>
+          <Link to={"https://web.facebook.com/spoons243?locale=fr_FR"} target="_blank">{<GrFacebookOption />}</Link>
           <Link> {<AiFillInstagram />} </Link>
           <Link> {<BsTwitter />} </Link>
         </div>
@@ -27,13 +27,13 @@ function Footer() {
       <div className="footer_div_two">
         <h2 className="h2_a">L'entreprise</h2>
         <div className="footer_links">
-          <Link className="nav_item">Equipe</Link>
+          <Link className="nav_item" to={"/apropos"}>Equipe</Link>
           <Link className="nav_item">Carrière</Link>
           <Link className="nav_item">Portfolio</Link>
           <Link className="nav_item">Clients</Link>
           <Link className="nav_item">Mode de travail</Link>
           <Link className="nav_item">Galeries</Link>
-          <Link className="nav_item">Projets</Link>
+          <Link className="nav_item" to={"/projet"}>Projets</Link>
         </div>
       </div>
       <div className="footer_div_three">

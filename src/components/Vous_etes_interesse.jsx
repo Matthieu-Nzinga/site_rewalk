@@ -11,7 +11,7 @@ function Vous_etes_interesse() {
           Il a survécu non seulement à cinq siècles, mais aussi au saut vers la
           composition électronique, restant essentiellement inchangé.
         </p>
-        <button><Link>Nous contacter</Link></button>
+        <button><Link to={"/contact"}>Nous contacter</Link></button>
       </div>
       <div>
         <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698040125/image_11_wraure.png" alt="" />

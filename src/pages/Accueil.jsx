@@ -37,7 +37,7 @@ function Accueil() {
           </div>
         </div>
         <div className="threeSection">
-          <Link>{<GrFacebookOption />}</Link>
+          <Link to={"https://web.facebook.com/spoons243?locale=fr_FR"} target="_blank">{<GrFacebookOption />}</Link>
           <Link> {<AiFillInstagram />} </Link>
           <Link> {<BsTwitter />} </Link>
         </div>
