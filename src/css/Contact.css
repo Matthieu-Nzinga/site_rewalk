@@ -27,6 +27,11 @@
     border-radius: 10px;
     padding: 5%;
 }
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .contact_service{
     width: 30%;
@@ -47,6 +52,7 @@
 
 .formulaire button{
     width: 150px;
+    background-color: #1ABCE2;
 }
 
 .contact_service h3{

@@ -1,7 +1,47 @@
 import React from "react";
 import "../css/Contact.css";
+import emailjs from 'emailjs-com';
 
 function Contact() {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const SERVICE_ID = 'service_tbn0i2l';
+    const TEMPLATE_ID = 'template_br1fryw';
+    const USER_ID = 'y4ocHgMv-GwYUoxFf';
+
+    let prénom = e.target.prénom.value;
+    let nom = e.target.nom.value;
+    let email = e.target.email.value;
+    let téléphone = e.target.téléphone.value;
+    let message = e.target.message.value;
+
+    const templateParams = {
+      prénom,
+      nom,
+      email,
+      téléphone,
+      message,
+    };
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID)
+      .then((result) => {
+        alert('votre e-mail est envoyé avec succès:', result.text);
+        e.target.prénom.value = '';
+        e.target.nom.value = '';
+        e.target.email.value = '';
+        e.target.téléphone.value = '';
+        e.target.message.value = '';
+      })
+      .catch((error) => {
+        console.error('Erreur lors de l\'envoi de l\'e-mail:', error.text);
+      });
+
+      prénom = '';
+      nom = '';
+  };
+
   return (
     <div className="div_principal_contact">
       <div className="service_div_one">
@@ -25,13 +65,16 @@ function Contact() {
         <h2 className="h2_service">Formulaire de contact</h2>
         <div className="formulaire_contact">
           <div className="formulaire">
-            <input type="text" placeholder="Votre nom" />
-            <input type="text" placeholder="Votre prénom" />
-            <input type="email" placeholder="Votre email" />
-            <input type="number" placeholder="Votre téléphone" />
-            <input type="text" placeholder="Votre message" />
+            <form onSubmit={sendEmail}>
+            <input type="text" name="prénom" placeholder="Votre prénom" />
+            <input type="text" name="nom" placeholder="Votre nom" />
+            <input type="email" name="email" placeholder="Votre email" />
+            <input type="number" name="téléphone" placeholder="Votre téléphone" />
+            <input type="text" name="message" placeholder="Votre message" />
 
-            <button>Envoyer</button>
+            <button type="submit">Envoyer</button>
+            </form>
+            
           </div>
           <div className="contact_service">
             <div>
