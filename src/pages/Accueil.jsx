@@ -24,7 +24,11 @@ function Accueil() {
             l'imaginaire à la réalité. Avec notre équipe d'experts passionnés et
             dévoués, nous sommes là pour vous aider à concrétiser votre vision
           </p>
-          <button>Explorer maitenant</button>
+          <div>
+            <Link to={"/apropos"}>
+              <button>Explorer maitenant</button>
+            </Link>
+          </div>
         </div>
         <div className="towSection">
           <div>
@@ -37,17 +41,24 @@ function Accueil() {
           </div>
         </div>
         <div className="threeSection">
-          <Link to={"https://web.facebook.com/spoons243?locale=fr_FR"} target="_blank">{<GrFacebookOption />}</Link>
+          <Link
+            to={
+              "https://web.facebook.com/profile.php?id=100066840540826&locale=fr_FR"
+            }
+            target="_blank"
+          >
+            {<GrFacebookOption />}
+          </Link>
           <Link> {<AiFillInstagram />} </Link>
           <Link> {<BsTwitter />} </Link>
         </div>
       </div>
       <Carrousel />
       <Anous />
-      <CarrouselService/>
-      <ProjetsRecens/>
-      <Temoignage/>
-      <Vous_etes_interesse/>
+      <CarrouselService />
+      <ProjetsRecens />
+      <Temoignage />
+      <Vous_etes_interesse />
     </div>
   );
 }
