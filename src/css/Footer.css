@@ -33,6 +33,13 @@
     width: 33%;
 }
 
+.droit-reserve{
+    text-align: center;
+    background-color: #D3D6E8;
+    padding-bottom: 20px;
+}
+
+
 @media screen and (max-width: 768px){
     .footer{
         flex-direction: column;

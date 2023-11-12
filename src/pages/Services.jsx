@@ -2,7 +2,6 @@ import React from "react";
 import "../css/Services.css";
 import Vous_etes_interesse from "../components/Vous_etes_interesse";
 
-
 function Services() {
   return (
     <div className="service_div_pricipal">
@@ -10,10 +9,13 @@ function Services() {
         <div>
           <h2 className="h2_nos">Nos service</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet?
-            Minus, corporis recusandae unde at sed sit molestiae repellendus
-            aliquid obcaecati temporibus aut modi nemo omnis dolorem! Ut, optio
-            alias.
+            Bienvenue dans l'univers diversifié et spécialisé de
+            Rewalk-Construct. Nos services transcendent la simple construction
+            pour embrasser une approche holistique de la création d'espaces
+            exceptionnels. Chaque service que nous offrons représente notre
+            engagement envers l'excellence, l'innovation et la satisfaction du
+            client. Découvrez comment nous pouvons concrétiser votre vision et
+            dépasser vos attentes.
           </p>
         </div>
         <div>
@@ -25,18 +27,19 @@ function Services() {
       </div>
       <div className="service_div_two">
         <div className="service_div">
-          <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698049438/image_6_dyq2ov.png" alt="Image Architecture" />
+          <img
+            src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698049438/image_6_dyq2ov.png"
+            alt="Image Architecture"
+          />
           <div className="service_divEcrit">
             <h2 className="h2_service">Architecture</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              excepturi corrupti consectetur cumque nam ea quaerat? Amet
-              assumenda ullam perferendis, labore harum odit laboriosam beatae
-              aperiam ipsam reprehenderit molestiae quia Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Repellendus, aperiam! Impedit
-              nesciunt, vitae aliquam qui obcaecati consectetur eveniet officiis
-              aspernatur amet rem ipsa ducimus dolorem esse quod unde vel atodit
-              laboriosam beatae aperiam ipsam reprehenderit molestiae .
+              Notre service d'architecture chez Rewalk-Construct va au-delà de
+              la simple conception de bâtiments. Nous sommes des créateurs
+              d'espaces uniques, des architectes passionnés qui transforment vos
+              idées en structures tangibles. Chaque ligne dessinée, chaque
+              détail réfléchi est une expression de notre engagement envers
+              l'esthétique, la fonctionnalité et l'innovation.
             </p>
             <ul className="service_ul">
               <li>
@@ -54,14 +57,12 @@ function Services() {
           <div className="service_divEcrit">
             <h2 className="h2_service">Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              excepturi corrupti consectetur cumque nam ea quaerat? Amet
-              assumenda ullam perferendis, labore harum odit laboriosam beatae
-              aperiam ipsam reprehenderit molestiae quia Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Repellendus, aperiam! Impedit
-              nesciunt, vitae aliquam qui obcaecati consectetur eveniet officiis
-              aspernatur amet rem ipsa ducimus dolorem esse quod unde vel atodit
-              laboriosam beatae aperiam ipsam reprehenderit molestiae .
+              Le service de design chez Rewalk-Construct est bien plus qu'une
+              question d'esthétique – c'est une immersion dans la création
+              d'expériences visuelles et fonctionnelles captivantes. Nous
+              comprenons que chaque détail compte, et c'est pourquoi notre
+              équipe de designers talentueux s'engage à transcender les attentes
+              pour donner vie à votre vision.
             </p>
             <ul className="service_ul">
               <li>
@@ -74,21 +75,25 @@ function Services() {
               </li>
             </ul>
           </div>
-          <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698051030/image_8_jpkqgy.png" alt="Image Design" />
+          <img
+            src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698051030/image_8_jpkqgy.png"
+            alt="Image Design"
+          />
         </div>
         <div className="service_div">
-          <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698052218/IMG-20231003-WA0051_mdkxmr.jpg" alt="Image Bâtiments de bureau" />
+          <img
+            src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698052218/IMG-20231003-WA0051_mdkxmr.jpg"
+            alt="Image Bâtiments de bureau"
+          />
           <div className="service_divEcrit">
             <h2 className="h2_service">Bâtiments de bureau</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              excepturi corrupti consectetur cumque nam ea quaerat? Amet
-              assumenda ullam perferendis, labore harum odit laboriosam beatae
-              aperiam ipsam reprehenderit molestiae quia Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Repellendus, aperiam! Impedit
-              nesciunt, vitae aliquam qui obcaecati consectetur eveniet officiis
-              aspernatur amet rem ipsa ducimus dolorem esse quod unde vel atodit
-              laboriosam beatae aperiam ipsam reprehenderit molestiae .
+              Chez Rewalk-Construct, nous comprenons que les espaces de bureau
+              ne sont pas simplement des structures, mais des moteurs de
+              productivité et de collaboration. Notre service de bâtiments de
+              bureau est conçu pour créer des environnements de travail
+              inspirants qui favorisent l'efficacité et le bien-être des
+              équipes.
             </p>
             <ul className="service_ul">
               <li>
@@ -106,14 +111,10 @@ function Services() {
           <div className="service_divEcrit">
             <h2 className="h2_service">Bâtiments intelligents</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              excepturi corrupti consectetur cumque nam ea quaerat? Amet
-              assumenda ullam perferendis, labore harum odit laboriosam beatae
-              aperiam ipsam reprehenderit molestiae quia Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Repellendus, aperiam! Impedit
-              nesciunt, vitae aliquam qui obcaecati consectetur eveniet officiis
-              aspernatur amet rem ipsa ducimus dolorem esse quod unde vel atodit
-              laboriosam beatae aperiam ipsam reprehenderit molestiae .
+              Bienvenue dans l'avenir de la construction avec notre service de
+              bâtiments intelligents chez Rewalk-Construct. Nous intégrons la
+              technologie de pointe pour créer des espaces connectés, économes
+              en énergie et adaptatifs à vos besoins évolutifs.
             </p>
             <ul className="service_ul">
               <li>
@@ -126,21 +127,24 @@ function Services() {
               </li>
             </ul>
           </div>
-          <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698052189/IMG-20231003-WA0083_uidt0o.jpg" alt="Image bâtiments intelligents" />
+          <img
+            src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698052189/IMG-20231003-WA0083_uidt0o.jpg"
+            alt="Image bâtiments intelligents"
+          />
         </div>
         <div className="service_div">
-          <img src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698053361/230612_01_ph03_2_sprpyd.jpg" alt="Image Ponts" />
+          <img
+            src="https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698053361/230612_01_ph03_2_sprpyd.jpg"
+            alt="Image Ponts"
+          />
           <div className="service_divEcrit">
             <h2 className="h2_service">Ponts</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              excepturi corrupti consectetur cumque nam ea quaerat? Amet
-              assumenda ullam perferendis, labore harum odit laboriosam beatae
-              aperiam ipsam reprehenderit molestiae quia Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Repellendus, aperiam! Impedit
-              nesciunt, vitae aliquam qui obcaecati consectetur eveniet officiis
-              aspernatur amet rem ipsa ducimus dolorem esse quod unde vel atodit
-              laboriosam beatae aperiam ipsam reprehenderit molestiae .
+              Les ponts sont bien plus que des structures de liaison; ce sont
+              des symboles de connexion et d'ingénierie audacieuse. Chez
+              Rewalk-Construct, notre service de conception de ponts unit
+              l'esthétique à la fonction, créant des liaisons durables qui
+              défient les conventions.
             </p>
             <ul className="service_ul">
               <li>
@@ -155,7 +159,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <Vous_etes_interesse/>
+      <Vous_etes_interesse />
     </div>
   );
 }

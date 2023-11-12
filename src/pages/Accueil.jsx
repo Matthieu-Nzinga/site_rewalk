@@ -18,11 +18,10 @@ function Accueil() {
         <div className="heroSection">
           <h1>Construisez votre maison de rêve.</h1>
           <p>
-            Imaginez un lieu où chaque détail est le reflet de vos rêves, un
-            espace où la beauté rencontre la fonctionnalité, où chaque coin
-            respire votre personnalité. C'est le moment de passer de
-            l'imaginaire à la réalité. Avec notre équipe d'experts passionnés et
-            dévoués, nous sommes là pour vous aider à concrétiser votre vision
+            Chez Rewalk-Construct, nous transformons vos rêves en réalité.
+            Chaque maison que nous construisons est imprégnée de qualité,
+            d'innovation et de l'engagement inébranlable à créer un espace qui
+            va au-delà de vos attentes.
           </p>
           <div>
             <Link to={"/apropos"}>

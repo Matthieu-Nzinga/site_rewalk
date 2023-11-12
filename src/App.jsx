@@ -6,6 +6,7 @@ import Projets from "./pages/Projets";
 import Services from "./pages/Services";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/service" element={<Services />} />
       </Routes>
       <Footer/>
+      <ScrollButton/>
     </BrowserRouter>
   )
 }

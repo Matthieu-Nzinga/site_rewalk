@@ -17,14 +17,13 @@ function ProjetsRecens() {
         </div>
         <div className="divEcrit">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            excepturi corrupti consectetur cumque nam ea quaerat? Amet assumenda
-            ullam perferendis, labore harum odit laboriosam beatae aperiam ipsam
-            reprehenderit molestiae quia Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Repellendus, aperiam! Impedit nesciunt, vitae
-            aliquam qui obcaecati consectetur eveniet officiis aspernatur amet
-            rem ipsa ducimus dolorem esse quod unde vel atodit laboriosam beatae
-            aperiam ipsam reprehenderit molestiae .
+            En 2021, Rewalk-Construct a réalisé une résidence exceptionnelle à
+            Ngaliema, Kinshasa. Cette élégante demeure, fusionnant modernité et
+            fonctionnalité, témoigne de notre engagement envers l'excellence.
+            Nichée dans un quartier dynamique, elle incarne notre dévouement à
+            créer des espaces de vie exceptionnels. Notre fierté réside dans la
+            contribution positive apportée à la communauté locale.
+            Rewalk-Construct : bâtir des rêves, construire des communautés.
           </p>
           <ul className="ullllll">
             <li>
@@ -48,14 +47,12 @@ function ProjetsRecens() {
       <div className="div-recent-projects enver">
         <div className="divEcrit">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            excepturi corrupti consectetur cumque nam ea quaerat? Amet assumenda
-            ullam perferendis, labore harum odit laboriosam beatae aperiam ipsam
-            reprehenderit molestiae quia Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Repellendus, aperiam! Impedit nesciunt, vitae
-            aliquam qui obcaecati consectetur eveniet officiis aspernatur amet
-            rem ipsa ducimus dolorem esse quod unde vel atodit laboriosam beatae
-            aperiam ipsam reprehenderit molestiae .
+            En 2020, Rewalk-Construct a concrétisé un projet résidentiel
+            distinctif au cœur de la commune de Barumbu. Cette résidence,
+            alliant élégance contemporaine et fonctionnalité, incarne notre
+            engagement envers l'excellence dans la construction. Imprégné de
+            notre savoir-faire, ce projet a enrichi le paysage urbain de Barumbu
+            et contribué à créer des espaces de vie exceptionnels.
           </p>
           <ul className="ullllll">
             <li>

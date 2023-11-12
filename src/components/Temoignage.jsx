@@ -6,7 +6,7 @@ function Temoignage() {
   const testimonials = [
     {
       id: 1,
-      text: "Matthieu ipsum dolor sit amet consectetur,Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur,",
+      text: "Rewalk-Construct a dépassé toutes mes attentes, transformant ma vision d'une maison idéale en une réalité exceptionnelle.",
       imagesCard:
         "https://res.cloudinary.com/dvh6uj9l2/image/upload/v1697650381/rewalk/nzingaImage.jpg",
       nom: "Matthieu Nzinga",
@@ -14,7 +14,7 @@ function Temoignage() {
     },
     {
       id: 2,
-      text: "Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur,",
+      text: "Une expérience de construction sans faille avec Rewalk-Construct, mon rêve de maison parfaite est devenu une réalité.",
       imagesCard:
         "https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698066082/rewalk/image_4_wymfzi.png",
       nom: "Mario Baitelemeke",
@@ -22,7 +22,7 @@ function Temoignage() {
     },
     {
       id: 3,
-      text: "Walker ipsum dolor sit amet consectetur,Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur,",
+      text: "Choisir Rewalk-Construct a été la meilleure décision pour notre projet de construction, une qualité inégalable.",
       imagesCard:
         "https://res.cloudinary.com/dvh6uj9l2/image/upload/v1698066082/rewalk/Frame_3_snx5br.png",
       nom: "Baweni Walker",

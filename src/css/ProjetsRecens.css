@@ -30,6 +30,12 @@
 .divEcrit{
     width: 650px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divEcrit button{
+    width: max-content;
 }
 
 .ullllll{
